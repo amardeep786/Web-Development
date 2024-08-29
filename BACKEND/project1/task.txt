@@ -1,0 +1,21 @@
+REST API - JSON
+
+GET /users - list all users in html doc 
+
+
+// rest API 
+
+GET /api/users - list all users in json doc 
+
+GET /api/users/1 - Get the user with id 1
+GET /api/users/2 - Get the user with id 2
+
+{ 1,2 jo hai wo dynamic Path Parameter hai 
+    GET /api/users/ : id  -> pehle colon lga denge to wo denote krega ki id ab dynamic feature hai 
+}
+
+POST /api/users - Create new user
+
+PATCH /api/users/1 - Edit the user with id 1
+
+DELETE /api/users/1 = Delete the user with id 1
